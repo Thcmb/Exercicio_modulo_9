@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+        90deg,
+        #3f2253 0%,
+        #62367c 20%,
+        #774097 40%,
+        #975aba 60%,
+        #a05fc8 80%,
+        #ad7cd6 100%
+        );
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 50px 20px 50px;
+    border-radius: 15px;
+    border: 4px solid #3f2253;
+}
+
+input{
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-right: 5px;
+    text-align: center;
+    color:#62367c ;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background: 0;;
+    font-size: 20px;
+    border: none;
+    color: #62367c;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+form button:hover {
+    color: #3f2253;
+    scale: 1.1;
+    }
+
+header h1 {
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: #62367c;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 30px;
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px;
+    color: #62367c;
+    border-bottom: 1px solid #62367c ;
+    padding: 7px;
+    text-align: start;
+    cursor: pointer;
+    position: relative;
+}
+
+.tarefaFeita {
+    text-decoration: line-through;;
+}
+
+.Icon {
+    background-image: url("./Icon/CheckGoodYes.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+.remover {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
